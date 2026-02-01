@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 
-const CreateAccountPage = () => {
+const SignupPage = () => {
   return (
    <>
     <div className="card">
@@ -49,7 +49,7 @@ const CreateAccountPage = () => {
               No
             </label>
           </div>
-          <Link to="/accountsetting">
+          <Link to="/profile">
             <button className="create-btn" type="submit">Create Account</button>
           </Link> 
         </form>
@@ -60,4 +60,4 @@ const CreateAccountPage = () => {
   )
 }
 
-export default CreateAccountPage
+export default SignupPage

@@ -2,7 +2,7 @@ import React from 'react'
 import profile from "../../assets/profile.png"
 import camera from "../../assets/camera.png"
 
-const AccountSettingPage = () => {
+const Profile = () => {
   return (
     <>
     <div className="account-setting">
@@ -26,4 +26,4 @@ const AccountSettingPage = () => {
   )
 }
 
-export default AccountSettingPage
+export default Profile
